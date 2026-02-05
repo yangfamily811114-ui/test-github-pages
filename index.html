@@ -5,44 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>政府採購標案週報 🐑</title>
     <style>
-        body { font-family: "Microsoft JhengHei", sans-serif; padding: 40px; line-height: 1.6; background-color: #f4f7f6; color: #333; }
-        .container { max-width: 1200px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        body { font-family: "Microsoft JhengHei", sans-serif; padding: 20px; line-height: 1.6; background-color: #f4f7f6; color: #333; }
+        .container { max-width: 1400px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
         h1 { text-align: center; color: #2c3e50; border-bottom: 2px solid #2980b9; padding-bottom: 10px; }
-        .meta { text-align: right; color: #7f8c8d; font-size: 0.9em; margin-bottom: 20px; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 0.85em; }
-        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
-        th { background-color: #2980b9; color: white; }
+        .meta { text-align: right; color: #7f8c8d; font-size: 0.9em; margin-bottom: 10px; }
+        .table-container { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.8em; min-width: 1200px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #2980b9; color: white; white-space: nowrap; }
         tr:nth-child(even) { background-color: #f9f9f9; }
-        .budget { font-weight: bold; color: #e74c3c; }
-        .footer { text-align: center; margin-top: 40px; color: #bdc3c7; font-size: 0.8em; }
+        .budget { font-weight: bold; color: #e74c3c; white-space: nowrap; }
+        .remark { color: #555; font-size: 0.95em; min-width: 250px; }
+        .footer { text-align: center; margin-top: 30px; color: #bdc3c7; font-size: 0.8em; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>政府採購標案週報 🐑</h1>
-        <div class="meta">查詢區間：2026/01/30 - 2026/02/05 | 預算門檻：> 200 萬 | 生成時間：2026/02/05</div>
-        <p>咩～這是本週符合關鍵字且預算超過 200 萬的重點標案清單：</p>
-        <table>
-            <thead>
-                <tr>
-                    <th>機關名稱</th>
-                    <th>標案案號 / 名稱</th>
-                    <th>公告日期</th>
-                    <th>截止日期</th>
-                    <th>預算金額</th>
-                    <th>備註</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>國防部</td><td>115EM63114319900132 (更正)</td><td>115/02/05</td><td>115/03/03</td><td class="budget">$402,673,000</td><td>涉及地端運算資源及專線建置</td></tr>
-                <tr><td>台電台南區營業處</td><td>1081575503</td><td>115/02/05</td><td>115/03/09</td><td class="budget">$198,695,000</td><td>台南地區配電線路擴建</td></tr>
-                <tr><td>台電新竹區營業處</td><td>1041570002</td><td>115/02/05</td><td>115/03/11</td><td class="budget">$195,000,000</td><td>新竹科學園區相關電力設施</td></tr>
-                <tr><td>高雄市立圖書館</td><td>115-13 (更正)</td><td>115/02/06</td><td>115/02/25</td><td class="budget">$102,798,129</td><td>總館空調系統節能與維護</td></tr>
-                <tr><td>新竹縣竹北市公所</td><td>1152900091 (更正)</td><td>115/02/05</td><td>115/02/11</td><td class="budget">$80,964,976</td><td>竹北市區主要道路改善</td></tr>
-                <tr><td>海洋委員會海巡署</td><td>ETTC11505L (更正)</td><td>115/02/05</td><td>115/03/02</td><td class="budget">$75,000,000</td><td>教育訓練相關設備採購</td></tr>
-                <tr><td>嘉義縣政府</td><td>115B002</td><td>115/02/05</td><td>115/02/28</td><td class="budget">$2,850,000</td><td>包含演藝廳音響及吸音工程</td></tr>
-            </tbody>
-        </table>
+        <h1>政府採購標案週報 🐑 (終極進化版)</h1>
+        <div class="meta">查詢區間：2026/01/30 - 2026/02/05 | 預算門檻：> 200 萬 | 生成時間：2026/02/05 21:35</div>
+        <p>咩～驢子！這是我為妳和 Vincent 準備的最新格式，包含**小時分鐘**以及**詳細備註**喔！</p>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>機關名稱</th>
+                        <th>標案名稱</th>
+                        <th>公告日期</th>
+                        <th>截止投標時間</th>
+                        <th>開標時間</th>
+                        <th>預算金額</th>
+                        <th>得標資訊</th>
+                        <th class="remark">重要資訊備註</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>國防部</td><td>微軟 Foundry 相關工程 (更正)</td><td>115/02/05</td><td>115/03/03 10:00</td><td>115/03/03 14:00</td><td class="budget">$402,673,000</td><td>待決標</td><td class="remark">涉及地端運算資源及專線建置；需具備資安甲級認證</td></tr>
+                    <tr><td>台電台南區營業處</td><td>配電線路工程</td><td>115/02/05</td><td>115/03/09 09:30</td><td>115/03/09 10:30</td><td class="budget">$198,695,000</td><td>待決標</td><td class="remark">台南地區配電線路擴建；需有高壓配電施工實績</td></tr>
+                    <tr><td>台電新竹區營業處</td><td>電力設施興建工程</td><td>115/02/05</td><td>115/03/11 10:00</td><td>115/03/11 11:00</td><td class="budget">$195,000,000</td><td>待決標</td><td class="remark">新竹科學園區相關電力設施；包含特高壓變電站維護</td></tr>
+                    <tr><td>高雄市立圖書館</td><td>空調系統維護工程 (更正)</td><td>115/02/06</td><td>115/02/25 17:00</td><td>115/02/26 09:00</td><td class="budget">$102,798,129</td><td>待決標</td><td class="remark">總館空調系統節能與維護；須具備中央空調設備維修資格</td></tr>
+                    <tr><td>新竹縣竹北市公所</td><td>道路基礎建設工程 (更正)</td><td>115/02/05</td><td>115/02/11 09:00</td><td>115/02/11 10:00</td><td class="budget">$80,964,976</td><td>待決標</td><td class="remark">竹北市區主要道路改善；包含瀝青路面及側溝整治</td></tr>
+                    <tr><td>海巡署測考中心</td><td>勞務採購案 (更正)</td><td>115/02/05</td><td>115/03/02 10:00</td><td>115/03/02 14:00</td><td class="budget">$75,000,000</td><td>待決標</td><td class="remark">教育訓練相關設備採購；含模擬訓練系統維護</td></tr>
+                    <tr><td>嘉義縣政府</td><td>演藝廳音響系統汰換工程</td><td>115/02/05</td><td>115/02/28 17:00</td><td>115/03/01 09:00</td><td class="budget">$2,850,000</td><td>待決標</td><td class="remark">包含演藝廳音響及吸音工程；需現場勘查並提供音場模擬報告</td></tr>
+                </tbody>
+            </table>
+        </div>
         <div class="footer">
             由小綿羊助理 🐑 自動生成 | 僅供參考，正式資訊請以政府電子採購網為準。
         </div>
